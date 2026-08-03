@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Sally Monitor — Server Status</title>
+<title>Sally Monitor — Opening Dashboard…</title>
 <style>
   * { box-sizing: border-box; margin: 0; padding: 0; }
   body { background: #0f1117; color: #e2e8f0; font-family: system-ui, sans-serif;
@@ -11,49 +11,163 @@
          padding: 48px 24px; min-height: 100vh; }
   h1 { color: #60a5fa; font-size: 1.6rem; margin-bottom: 8px; }
   .sub { color: #64748b; font-size: 0.9rem; margin-bottom: 40px; }
-  .card { background: #1e2433; border-radius: 12px; padding: 20px 24px;
-          width: 100%; max-width: 520px; margin-bottom: 16px; }
-  .server-name { font-weight: 700; font-size: 1rem; margin-bottom: 4px; }
-  .server-url  { color: #94a3b8; font-size: 0.85rem; word-break: break-all; margin-bottom: 8px; }
+
+  /* ── Hero redirect box ── */
+  #hero { background: #1e2433; border: 1px solid #2d3a50; border-radius: 16px;
+          padding: 32px 28px; width: 100%; max-width: 520px; text-align: center;
+          margin-bottom: 32px; }
+  #hero .status-icon { font-size: 2.8rem; margin-bottom: 12px; }
+  #hero .status-title { font-size: 1.15rem; font-weight: 700; margin-bottom: 6px; }
+  #hero .status-msg   { color: #94a3b8; font-size: 0.9rem; margin-bottom: 20px; }
+  #countdown { font-size: 2rem; font-weight: 800; color: #60a5fa; margin-bottom: 16px; }
+  .btn-open {
+    display: inline-block; background: #2563eb; color: #fff;
+    padding: 12px 28px; border-radius: 10px; font-size: 1rem; font-weight: 600;
+    text-decoration: none; border: none; cursor: pointer; width: 100%;
+    transition: background 0.2s;
+  }
+  .btn-open:hover { background: #1d4ed8; }
+  .btn-open.green { background: #16a34a; }
+  .btn-open.green:hover { background: #15803d; }
+  .btn-cancel { color: #64748b; font-size: 0.8rem; margin-top: 12px;
+                cursor: pointer; text-decoration: underline; display: block; }
+  .btn-cancel:hover { color: #94a3b8; }
+
+  /* ── Server list ── */
+  .section-title { color: #475569; font-size: 0.78rem; text-transform: uppercase;
+                   letter-spacing: .08em; margin-bottom: 12px; width: 100%; max-width: 520px; }
+  .card { background: #1e2433; border-radius: 12px; padding: 18px 20px;
+          width: 100%; max-width: 520px; margin-bottom: 12px;
+          display: flex; align-items: center; justify-content: space-between; gap: 12px; }
+  .card-left .server-name { font-weight: 700; font-size: 0.95rem; margin-bottom: 2px; }
+  .card-left .server-url  { color: #94a3b8; font-size: 0.78rem; word-break: break-all; }
+  .card-left .last-seen   { color: #475569; font-size: 0.75rem; margin-top: 4px; }
   .badge { display: inline-block; padding: 3px 10px; border-radius: 99px;
-           font-size: 0.75rem; font-weight: 600; }
+           font-size: 0.72rem; font-weight: 600; white-space: nowrap; }
   .online  { background: #14532d; color: #4ade80; }
   .offline { background: #3b1212; color: #f87171; }
-  .last-seen { color: #64748b; font-size: 0.8rem; margin-top: 6px; }
+  .btn-small { padding: 7px 14px; border-radius: 8px; font-size: 0.82rem;
+               font-weight: 600; background: #2563eb; color: #fff;
+               text-decoration: none; white-space: nowrap; }
+  .btn-small:hover { background: #1d4ed8; }
+  .btn-small.disabled { background: #1e293b; color: #475569; cursor: not-allowed; pointer-events: none; }
+
   .empty { color: #64748b; text-align: center; padding: 40px; }
-  #ts { color: #475569; font-size: 0.78rem; margin-top: 32px; }
+  #ts { color: #475569; font-size: 0.78rem; margin-top: 24px; }
 </style>
 </head>
 <body>
 <h1>🛡️ Sally Monitor</h1>
-<p class="sub">Live server directory — updated automatically</p>
+<p class="sub">Parent Dashboard — auto-connecting to your server</p>
+
+<!-- Hero: auto-redirect countdown -->
+<div id="hero">
+  <div id="hero-icon" class="status-icon">⏳</div>
+  <div id="hero-title" class="status-title">Looking for your server…</div>
+  <div id="hero-msg" class="status-msg">Checking which servers are online</div>
+  <div id="countdown" style="display:none"></div>
+  <a id="btn-open" class="btn-open" href="#" style="display:none">Open Parent Dashboard →</a>
+  <span id="btn-cancel" class="btn-cancel" style="display:none" onclick="cancelRedirect()">Stay on this page</span>
+</div>
+
+<!-- All servers list -->
+<div class="section-title">All servers</div>
 <div id="list"><p class="empty">Loading…</p></div>
 <p id="ts"></p>
+
 <script>
-const STALE_MS = 10 * 60 * 1000; // 10 minutes = offline
+const STALE_MS = 10 * 60 * 1000;
+let redirectTimer = null;
+let cancelled = false;
+let targetUrl = null;
+
+function cancelRedirect() {
+  cancelled = true;
+  clearInterval(redirectTimer);
+  document.getElementById('countdown').style.display = 'none';
+  document.getElementById('btn-cancel').style.display = 'none';
+  document.getElementById('hero-msg').textContent = 'Auto-redirect cancelled. Click the button above to open manually.';
+}
+
+function startCountdown(url, secs) {
+  if (cancelled) return;
+  targetUrl = url;
+  const cdEl = document.getElementById('countdown');
+  const cancelEl = document.getElementById('btn-cancel');
+  cdEl.style.display = 'block';
+  cancelEl.style.display = 'block';
+  cdEl.textContent = secs;
+
+  let remaining = secs;
+  redirectTimer = setInterval(() => {
+    remaining--;
+    cdEl.textContent = remaining;
+    if (remaining <= 0) {
+      clearInterval(redirectTimer);
+      if (!cancelled) window.location.href = url + '/dashboard/';
+    }
+  }, 1000);
+}
 
 async function load() {
   const r = await fetch('servers.json?_=' + Date.now());
   const data = await r.json();
-  const list = document.getElementById('list');
   const servers = data.servers || [];
+
+  const online = servers.filter(s =>
+    Date.now() - new Date(s.last_seen).getTime() < STALE_MS
+  );
+
+  // ── Update hero ──
+  const heroIcon  = document.getElementById('hero-icon');
+  const heroTitle = document.getElementById('hero-title');
+  const heroMsg   = document.getElementById('hero-msg');
+  const btnOpen   = document.getElementById('btn-open');
+
+  if (online.length > 0) {
+    const best = online[0];
+    heroIcon.textContent  = '✅';
+    heroTitle.textContent = 'Server is online — ' + best.name;
+    heroMsg.textContent   = 'You will be redirected to the dashboard automatically.';
+    btnOpen.href          = best.url + '/dashboard/';
+    btnOpen.textContent   = 'Open Parent Dashboard → (' + best.name + ')';
+    btnOpen.className     = 'btn-open green';
+    btnOpen.style.display = 'block';
+    if (!cancelled && !redirectTimer) startCountdown(best.url, 5);
+  } else {
+    heroIcon.textContent  = '❌';
+    heroTitle.textContent = 'No servers online right now';
+    heroMsg.textContent   = 'Start the server on your PC (run LAUNCH.py), then refresh this page.';
+    btnOpen.style.display = 'none';
+    document.getElementById('countdown').style.display = 'none';
+    document.getElementById('btn-cancel').style.display = 'none';
+  }
+
+  // ── Render all server cards ──
+  const list = document.getElementById('list');
   if (servers.length === 0) {
-    list.innerHTML = '<p class="empty">No servers registered yet.</p>';
+    list.innerHTML = '<p class="empty">No servers registered yet. Run LAUNCH.py on your PC.</p>';
   } else {
     list.innerHTML = servers.map(s => {
       const age = Date.now() - new Date(s.last_seen).getTime();
-      const online = age < STALE_MS;
+      const isOnline = age < STALE_MS;
       const ago = age < 60000 ? 'just now'
-                : age < 3600000 ? Math.floor(age/60000) + ' min ago'
-                : Math.floor(age/3600000) + ' hr ago';
+                : age < 3600000 ? Math.floor(age / 60000) + ' min ago'
+                : Math.floor(age / 3600000) + ' hr ago';
+      const dashUrl = s.url + '/dashboard/';
       return `<div class="card">
-        <div class="server-name">${s.name}</div>
-        <div class="server-url">${s.url}</div>
-        <span class="badge ${online ? 'online' : 'offline'}">${online ? '● Online' : '○ Offline'}</span>
-        <div class="last-seen">Last seen: ${ago}</div>
+        <div class="card-left">
+          <div class="server-name">${s.name}</div>
+          <div class="server-url">${s.url}</div>
+          <div class="last-seen">Last seen: ${ago} &nbsp;
+            <span class="badge ${isOnline ? 'online' : 'offline'}">${isOnline ? '● Online' : '○ Offline'}</span>
+          </div>
+        </div>
+        <a href="${dashUrl}" class="btn-small${isOnline ? '' : ' disabled'}">Open →</a>
       </div>`;
     }).join('');
   }
+
   document.getElementById('ts').textContent =
     'Directory updated ' + new Date(data.updated_at).toLocaleString();
 }
