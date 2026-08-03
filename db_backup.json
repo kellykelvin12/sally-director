@@ -1,6 +1,6 @@
 {
-  "version": 1785790648,
-  "updated_at": "2026-08-03T13:57:28Z",
+  "version": 1785791049,
+  "updated_at": "2026-08-03T14:04:09Z",
   "updated_by": "home-pc",
   "tables": {
     "users": [
@@ -12,14 +12,26 @@
         "role": "parent",
         "parent_id": null,
         "invite_code": "8GonErTcg_I",
-        "last_seen": "2026-08-03 13:50:54",
+        "last_seen": "2026-08-03 14:03:03",
         "battery_level": 100,
         "is_online": 1,
         "created_at": "2026-08-03 13:31:29"
       }
     ],
     "parent_children": [],
-    "licenses": [],
+    "licenses": [
+      {
+        "id": 1,
+        "key": "ADMIN-C9B46C68945D",
+        "plan": "Admin Grant",
+        "duration_days": 7,
+        "parent_id": 1,
+        "activated_at": "2026-08-03T14:04:07.390851",
+        "expires_at": "2026-08-10T14:04:07.390851",
+        "is_active": 1,
+        "created_at": "2026-08-03 14:04:07"
+      }
+    ],
     "geofences": [],
     "bedtime_schedules": [],
     "app_blocks": [],
