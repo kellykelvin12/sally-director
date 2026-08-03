@@ -1,0 +1,15 @@
+{
+  "version": 0,
+  "updated_at": "2026-08-03T00:00:00Z",
+  "updated_by": "none",
+  "tables": {
+    "users": [],
+    "parent_children": [],
+    "licenses": [],
+    "geofences": [],
+    "bedtime_schedules": [],
+    "app_blocks": [],
+    "fcm_tokens": [],
+    "disguise_settings": []
+  }
+}
