@@ -1,4 +1,10 @@
 {
-  "servers": [],
-  "updated_at": "2026-08-03T00:00:00Z"
+  "servers": [
+    {
+      "name": "home-pc",
+      "url": "https://printed-studies-called-composite.trycloudflare.com",
+      "last_seen": "2026-08-03T13:26:28Z"
+    }
+  ],
+  "updated_at": "2026-08-03T13:26:28Z"
 }
