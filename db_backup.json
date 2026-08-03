@@ -1,6 +1,6 @@
 {
-  "version": 1785791049,
-  "updated_at": "2026-08-03T14:04:09Z",
+  "version": 1785819650,
+  "updated_at": "2026-08-03T22:00:50Z",
   "updated_by": "home-pc",
   "tables": {
     "users": [
@@ -12,10 +12,36 @@
         "role": "parent",
         "parent_id": null,
         "invite_code": "8GonErTcg_I",
-        "last_seen": "2026-08-03 14:03:03",
+        "last_seen": "2026-08-03 21:30:08",
         "battery_level": 100,
         "is_online": 1,
         "created_at": "2026-08-03 13:31:29"
+      },
+      {
+        "id": 2,
+        "username": "sallyadmin",
+        "email": "sallyadmin@sallymonitor.internal",
+        "password_hash": "9e842238a0ac2545a0d9cd32b6b96196d2b6072c6eea521765a68e7bc916a719",
+        "role": "admin",
+        "parent_id": null,
+        "invite_code": null,
+        "last_seen": null,
+        "battery_level": 100,
+        "is_online": 0,
+        "created_at": "2026-08-03 14:13:00"
+      },
+      {
+        "id": 3,
+        "username": "kelly",
+        "email": "kelly@child.local",
+        "password_hash": "03ac674216f3e15c761ee1a5e255f067953623c8b388b4459e13f978d7c846f4",
+        "role": "child",
+        "parent_id": 1,
+        "invite_code": null,
+        "last_seen": "2026-08-03 22:00:41",
+        "battery_level": 100,
+        "is_online": 1,
+        "created_at": "2026-08-03 21:06:43"
       }
     ],
     "parent_children": [],
@@ -36,6 +62,12 @@
     "bedtime_schedules": [],
     "app_blocks": [],
     "fcm_tokens": [],
-    "disguise_settings": []
+    "disguise_settings": [
+      {
+        "child_id": 3,
+        "disguise": "notes",
+        "updated_at": "2026-08-03 21:26:14"
+      }
+    ]
   }
 }
