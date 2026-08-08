@@ -1,6 +1,6 @@
 {
-  "version": 1786189680,
-  "updated_at": "2026-08-08T04:48:00Z",
+  "version": 1786190216,
+  "updated_at": "2026-08-08T04:56:56Z",
   "updated_by": "home-pc",
   "tables": {
     "users": [
@@ -90,10 +90,23 @@
         "role": "child",
         "parent_id": 1,
         "invite_code": null,
-        "last_seen": "2026-08-07 20:55:12",
+        "last_seen": "2026-08-08 04:56:07",
         "battery_level": 100,
         "is_online": 0,
         "created_at": "2026-08-07 20:30:28"
+      },
+      {
+        "id": 8,
+        "username": "kelly_v3",
+        "email": "kelly_v3@child.local",
+        "password_hash": "7691ba9288d1cf8bd2e79c8cb6b9e4034f920ea562caecae84be674cbee9b50e",
+        "role": "child",
+        "parent_id": 1,
+        "invite_code": null,
+        "last_seen": null,
+        "battery_level": 100,
+        "is_online": 0,
+        "created_at": "2026-08-08 04:56:54"
       }
     ],
     "parent_children": [],
@@ -128,7 +141,7 @@
       {
         "child_id": 7,
         "disguise": "notes",
-        "updated_at": "2026-08-07 20:36:12"
+        "updated_at": "2026-08-08 04:51:47"
       }
     ]
   }
