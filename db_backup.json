@@ -1,6 +1,6 @@
 {
-  "version": 1786198902,
-  "updated_at": "2026-08-08T07:21:42Z",
+  "version": 1786230218,
+  "updated_at": "2026-08-08T16:03:38Z",
   "updated_by": "home-pc",
   "tables": {
     "users": [
@@ -12,7 +12,7 @@
         "role": "parent",
         "parent_id": null,
         "invite_code": "8GonErTcg_I",
-        "last_seen": "2026-08-04 07:59:10",
+        "last_seen": "2026-08-08 16:03:15",
         "battery_level": 100,
         "is_online": 1,
         "created_at": "2026-08-03 13:31:29"
@@ -103,10 +103,23 @@
         "role": "child",
         "parent_id": 1,
         "invite_code": null,
-        "last_seen": "2026-08-08 06:45:26",
+        "last_seen": "2026-08-08 07:23:08",
         "battery_level": 100,
         "is_online": 0,
         "created_at": "2026-08-08 04:56:54"
+      },
+      {
+        "id": 9,
+        "username": "kelly_f183c4",
+        "email": "kelly_f183c4@child.local",
+        "password_hash": "d60201cc95bb8b41f971819105c512a9e4a0838438a8a15a74d11e76b6f37784",
+        "role": "child",
+        "parent_id": 1,
+        "invite_code": null,
+        "last_seen": null,
+        "battery_level": 100,
+        "is_online": 0,
+        "created_at": "2026-08-08 16:03:37"
       }
     ],
     "parent_children": [],
