@@ -1,6 +1,6 @@
 {
-  "version": 1786305182,
-  "updated_at": "2026-08-09T12:53:02Z",
+  "version": 1786307018,
+  "updated_at": "2026-08-09T13:23:38Z",
   "updated_by": "home-pc",
   "tables": {
     "users": [
@@ -12,7 +12,7 @@
         "role": "parent",
         "parent_id": null,
         "invite_code": "8GonErTcg_I",
-        "last_seen": "2026-08-09 12:47:48",
+        "last_seen": "2026-08-09 13:21:46",
         "battery_level": 100,
         "is_online": 1,
         "created_at": "2026-08-03 13:31:29",
@@ -48,15 +48,15 @@
         "role": "child",
         "parent_id": 1,
         "invite_code": null,
-        "last_seen": "2026-08-09 12:52:36",
+        "last_seen": "2026-08-09 13:23:03",
         "battery_level": 100,
         "is_online": 1,
         "created_at": "2026-08-03 21:06:43",
-        "admin_active": 0,
-        "app_visible": 0,
+        "admin_active": 1,
+        "app_visible": 1,
         "device_owner": 0,
         "ui_locked": 0,
-        "a11y_enabled": 0
+        "a11y_enabled": 1
       },
       {
         "id": 12,
@@ -133,30 +133,21 @@
         "created_at": "2026-08-09 08:32:41"
       },
       {
-        "id": 19,
-        "parent_id": 1,
-        "child_id": 3,
-        "package_name": "com.whatsapp",
-        "app_name": "WhatsApp",
-        "is_active": 1,
-        "created_at": "2026-08-09 11:49:07"
-      },
-      {
-        "id": 20,
+        "id": 22,
         "parent_id": 1,
         "child_id": 3,
         "package_name": "com.whatsapp.w4b",
         "app_name": "WA Business",
         "is_active": 1,
-        "created_at": "2026-08-09 11:49:09"
+        "created_at": "2026-08-09 13:21:56"
       }
     ],
     "fcm_tokens": [],
     "disguise_settings": [
       {
         "child_id": 3,
-        "disguise": "notes",
-        "updated_at": "2026-08-08 22:46:55"
+        "disguise": "weather",
+        "updated_at": "2026-08-09 13:05:18"
       },
       {
         "child_id": 14,
