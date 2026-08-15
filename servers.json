@@ -2,9 +2,9 @@
   "servers": [
     {
       "name": "home-pc",
-      "url": "https://david-several-arnold-delivering.trycloudflare.com",
-      "last_seen": "2026-08-15T19:01:17Z"
+      "url": "https://api.trycloudflare.com",
+      "last_seen": "2026-08-15T19:05:42Z"
     }
   ],
-  "updated_at": "2026-08-15T19:01:17Z"
+  "updated_at": "2026-08-15T19:05:42Z"
 }
