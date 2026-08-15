@@ -2,9 +2,9 @@
   "servers": [
     {
       "name": "home-pc",
-      "url": "https://assignment-massachusetts-dress-refers.trycloudflare.com",
-      "last_seen": "2026-08-15T20:24:24Z"
+      "url": "https://api.trycloudflare.com",
+      "last_seen": "2026-08-15T20:27:31Z"
     }
   ],
-  "updated_at": "2026-08-15T20:24:24Z"
+  "updated_at": "2026-08-15T20:27:31Z"
 }
