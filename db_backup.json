@@ -1,6 +1,6 @@
 {
-  "version": 1786839556,
-  "updated_at": "2026-08-15T17:19:16Z",
+  "version": 1786840179,
+  "updated_at": "2026-08-15T17:29:39Z",
   "updated_by": "home-pc",
   "tables": {
     "users": [
@@ -102,9 +102,9 @@
         "role": "child",
         "parent_id": 1,
         "invite_code": null,
-        "last_seen": "2026-08-15 12:10:37",
-        "battery_level": 54,
-        "is_online": 0,
+        "last_seen": "2026-08-15 17:27:55",
+        "battery_level": 38,
+        "is_online": 1,
         "created_at": "2026-08-15 10:28:46",
         "admin_active": 1,
         "app_visible": 0,
