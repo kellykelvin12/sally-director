@@ -1,6 +1,6 @@
 {
-  "version": 1786814245,
-  "updated_at": "2026-08-15T10:17:25Z",
+  "version": 1786814927,
+  "updated_at": "2026-08-15T10:28:47Z",
   "updated_by": "home-pc",
   "tables": {
     "users": [
@@ -48,9 +48,9 @@
         "role": "child",
         "parent_id": 1,
         "invite_code": null,
-        "last_seen": "2026-08-15 10:06:15",
+        "last_seen": "2026-08-15 10:27:57",
         "battery_level": 100,
-        "is_online": 0,
+        "is_online": 1,
         "created_at": "2026-08-03 21:06:43",
         "admin_active": 1,
         "app_visible": 0,
@@ -92,6 +92,24 @@
         "app_visible": 0,
         "device_owner": 0,
         "ui_locked": 1,
+        "a11y_enabled": 0
+      },
+      {
+        "id": 15,
+        "username": "kelly_2",
+        "email": "kelly_2@child.local",
+        "password_hash": "8b8afa4947c67d1fe3bc7097c60f971d12944aa109db2a8780d4995961ee61b0",
+        "role": "child",
+        "parent_id": 1,
+        "invite_code": null,
+        "last_seen": "2026-08-15 10:28:47",
+        "battery_level": 66,
+        "is_online": 1,
+        "created_at": "2026-08-15 10:28:46",
+        "admin_active": 0,
+        "app_visible": 0,
+        "device_owner": 0,
+        "ui_locked": 0,
         "a11y_enabled": 0
       }
     ],
