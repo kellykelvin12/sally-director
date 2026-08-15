@@ -1,6 +1,6 @@
 {
-  "version": 1786824550,
-  "updated_at": "2026-08-15T13:09:10Z",
+  "version": 1786825161,
+  "updated_at": "2026-08-15T13:19:21Z",
   "updated_by": "home-pc",
   "tables": {
     "users": [
@@ -48,7 +48,7 @@
         "role": "child",
         "parent_id": 1,
         "invite_code": null,
-        "last_seen": "2026-08-15 13:08:18",
+        "last_seen": "2026-08-15 13:19:16",
         "battery_level": 100,
         "is_online": 1,
         "created_at": "2026-08-03 21:06:43",
@@ -102,8 +102,8 @@
         "role": "child",
         "parent_id": 1,
         "invite_code": null,
-        "last_seen": "2026-08-15 13:08:31",
-        "battery_level": 52,
+        "last_seen": "2026-08-15 13:19:18",
+        "battery_level": 50,
         "is_online": 1,
         "created_at": "2026-08-15 10:28:46",
         "admin_active": 1,
