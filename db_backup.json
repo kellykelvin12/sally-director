@@ -1,6 +1,6 @@
 {
-  "version": 1786827071,
-  "updated_at": "2026-08-15T13:51:11Z",
+  "version": 1786830850,
+  "updated_at": "2026-08-15T14:54:10Z",
   "updated_by": "home-pc",
   "tables": {
     "users": [
@@ -12,7 +12,7 @@
         "role": "parent",
         "parent_id": null,
         "invite_code": "8GonErTcg_I",
-        "last_seen": "2026-08-15 12:19:04",
+        "last_seen": "2026-08-15 14:44:59",
         "battery_level": 100,
         "is_online": 0,
         "created_at": "2026-08-03 13:31:29",
@@ -48,9 +48,9 @@
         "role": "child",
         "parent_id": 1,
         "invite_code": null,
-        "last_seen": "2026-08-15 13:50:22",
+        "last_seen": "2026-08-15 12:10:17",
         "battery_level": 100,
-        "is_online": 1,
+        "is_online": 0,
         "created_at": "2026-08-03 21:06:43",
         "admin_active": 1,
         "app_visible": 0,
@@ -102,14 +102,14 @@
         "role": "child",
         "parent_id": 1,
         "invite_code": null,
-        "last_seen": "2026-08-15 13:51:10",
-        "battery_level": 49,
-        "is_online": 1,
+        "last_seen": "2026-08-15 12:10:37",
+        "battery_level": 54,
+        "is_online": 0,
         "created_at": "2026-08-15 10:28:46",
         "admin_active": 1,
         "app_visible": 0,
         "device_owner": 0,
-        "ui_locked": 0,
+        "ui_locked": 1,
         "a11y_enabled": 1
       }
     ],
