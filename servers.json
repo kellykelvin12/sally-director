@@ -2,9 +2,9 @@
   "servers": [
     {
       "name": "home-pc",
-      "url": "https://postal-dem-posters-archives.trycloudflare.com",
-      "last_seen": "2026-08-15T19:18:20Z"
+      "url": "https://api.trycloudflare.com",
+      "last_seen": "2026-08-15T19:23:04Z"
     }
   ],
-  "updated_at": "2026-08-15T19:18:20Z"
+  "updated_at": "2026-08-15T19:23:04Z"
 }
