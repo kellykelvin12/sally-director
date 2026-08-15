@@ -2,9 +2,9 @@
   "servers": [
     {
       "name": "home-pc",
-      "url": "https://api.trycloudflare.com",
-      "last_seen": "2026-08-15T20:27:31Z"
+      "url": "https://representing-shadows-sim-assumption.trycloudflare.com",
+      "last_seen": "2026-08-15T20:28:03Z"
     }
   ],
-  "updated_at": "2026-08-15T20:27:31Z"
+  "updated_at": "2026-08-15T20:28:03Z"
 }
