@@ -2,9 +2,9 @@
   "servers": [
     {
       "name": "home-pc",
-      "url": "https://api.trycloudflare.com",
-      "last_seen": "2026-08-16T04:59:40Z"
+      "url": "https://monetary-castle-irrigation-enhanced.trycloudflare.com",
+      "last_seen": "2026-08-16T05:03:33Z"
     }
   ],
-  "updated_at": "2026-08-16T04:59:40Z"
+  "updated_at": "2026-08-16T05:03:33Z"
 }
