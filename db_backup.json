@@ -1,6 +1,6 @@
 {
-  "version": 1787461619,
-  "updated_at": "2026-08-22T22:06:59Z",
+  "version": 1787461624,
+  "updated_at": "2026-08-22T22:07:04Z",
   "updated_by": "home-pc",
   "tables": {
     "users": [
@@ -119,44 +119,6 @@
         "is_blocked": 0
       },
       {
-        "id": 17,
-        "username": "kelvink",
-        "email": "kelvink@gmail.com",
-        "password_hash": "ef797c8118f02dfb649607dd5d3f8c7623048c9c063d532cc95c5ed7a898a64f",
-        "role": "parent",
-        "parent_id": null,
-        "invite_code": "jMOzjuh-I88",
-        "last_seen": "2026-08-22 20:35:03",
-        "battery_level": 100,
-        "is_online": 0,
-        "created_at": "2026-08-22 20:34:18",
-        "admin_active": null,
-        "app_visible": null,
-        "device_owner": null,
-        "ui_locked": 0,
-        "a11y_enabled": 0,
-        "is_blocked": 0
-      },
-      {
-        "id": 19,
-        "username": "kelvinkk",
-        "email": "kelvinkk@gmail.com",
-        "password_hash": "ef797c8118f02dfb649607dd5d3f8c7623048c9c063d532cc95c5ed7a898a64f",
-        "role": "parent",
-        "parent_id": null,
-        "invite_code": "1Odla2-WkiA",
-        "last_seen": "2026-08-22 20:43:09",
-        "battery_level": 100,
-        "is_online": 0,
-        "created_at": "2026-08-22 20:43:05",
-        "admin_active": null,
-        "app_visible": null,
-        "device_owner": null,
-        "ui_locked": 0,
-        "a11y_enabled": 0,
-        "is_blocked": 0
-      },
-      {
         "id": 21,
         "username": "kelvinkkkk",
         "email": "kelvin1234@gmail.com",
@@ -221,28 +183,6 @@
         "expires_at": "2026-08-23T11:30:37.663301",
         "is_active": 1,
         "created_at": "2026-08-22 11:30:16"
-      },
-      {
-        "id": 6,
-        "key": "TRIAL-5D5CF50A2A40F21F",
-        "plan": "Free Trial",
-        "duration_days": 7,
-        "parent_id": 17,
-        "activated_at": "2026-08-22T20:34:19.035325",
-        "expires_at": "2026-08-29T20:34:19.035325",
-        "is_active": 1,
-        "created_at": "2026-08-22 20:34:19"
-      },
-      {
-        "id": 8,
-        "key": "TRIAL-32DE92C754B8388C",
-        "plan": "Free Trial",
-        "duration_days": 1,
-        "parent_id": 19,
-        "activated_at": "2026-08-22T20:43:05.249209",
-        "expires_at": "2026-08-23T20:43:05.249209",
-        "is_active": 1,
-        "created_at": "2026-08-22 20:43:05"
       },
       {
         "id": 10,
