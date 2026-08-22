@@ -2,9 +2,10 @@
   "servers": [
     {
       "name": "home-pc",
-      "url": "https://respectively-cap-fiscal-arrived.trycloudflare.com",
-      "last_seen": "2026-08-22T11:37:05Z"
+      "url": "https://desktop-8936018.tail8c96fc.ts.net",
+      "last_seen": "2026-08-22T11:38:23Z",
+      "tailnet_url": "http://desktop-8936018.tail8c96fc.ts.net:8002"
     }
   ],
-  "updated_at": "2026-08-22T11:37:05Z"
+  "updated_at": "2026-08-22T11:38:23Z"
 }
