@@ -1,6 +1,6 @@
 {
-  "version": 1787460084,
-  "updated_at": "2026-08-22T21:41:24Z",
+  "version": 1787461587,
+  "updated_at": "2026-08-22T22:06:27Z",
   "updated_by": "home-pc",
   "tables": {
     "users": [
@@ -12,7 +12,7 @@
         "role": "parent",
         "parent_id": null,
         "invite_code": "8GonErTcg_I",
-        "last_seen": "2026-08-22 21:36:33",
+        "last_seen": "2026-08-22 22:02:39",
         "battery_level": 100,
         "is_online": 0,
         "created_at": "2026-08-03 13:31:29",
@@ -20,7 +20,8 @@
         "app_visible": null,
         "device_owner": null,
         "ui_locked": 0,
-        "a11y_enabled": 0
+        "a11y_enabled": 0,
+        "is_blocked": 0
       },
       {
         "id": 2,
@@ -30,7 +31,7 @@
         "role": "admin",
         "parent_id": null,
         "invite_code": null,
-        "last_seen": "2026-08-22 21:15:42",
+        "last_seen": "2026-08-22 22:03:31",
         "battery_level": 100,
         "is_online": 0,
         "created_at": "2026-08-03 14:13:00",
@@ -38,7 +39,8 @@
         "app_visible": 0,
         "device_owner": 0,
         "ui_locked": 0,
-        "a11y_enabled": 0
+        "a11y_enabled": 0,
+        "is_blocked": 0
       },
       {
         "id": 3,
@@ -56,7 +58,8 @@
         "app_visible": 0,
         "device_owner": 0,
         "ui_locked": 0,
-        "a11y_enabled": 0
+        "a11y_enabled": 0,
+        "is_blocked": 0
       },
       {
         "id": 12,
@@ -74,7 +77,8 @@
         "app_visible": null,
         "device_owner": null,
         "ui_locked": 0,
-        "a11y_enabled": 0
+        "a11y_enabled": 0,
+        "is_blocked": 0
       },
       {
         "id": 14,
@@ -92,7 +96,8 @@
         "app_visible": 0,
         "device_owner": 0,
         "ui_locked": 1,
-        "a11y_enabled": 0
+        "a11y_enabled": 0,
+        "is_blocked": 0
       },
       {
         "id": 15,
@@ -110,7 +115,8 @@
         "app_visible": 0,
         "device_owner": 0,
         "ui_locked": 1,
-        "a11y_enabled": 1
+        "a11y_enabled": 1,
+        "is_blocked": 0
       },
       {
         "id": 16,
@@ -120,7 +126,7 @@
         "role": "parent",
         "parent_id": null,
         "invite_code": "rOyS9sB9FhQ",
-        "last_seen": "2026-08-22 21:03:12",
+        "last_seen": "2026-08-22 22:02:54",
         "battery_level": 100,
         "is_online": 0,
         "created_at": "2026-08-22 20:28:10",
@@ -128,7 +134,8 @@
         "app_visible": null,
         "device_owner": null,
         "ui_locked": 0,
-        "a11y_enabled": 0
+        "a11y_enabled": 0,
+        "is_blocked": 0
       },
       {
         "id": 17,
@@ -146,25 +153,8 @@
         "app_visible": null,
         "device_owner": null,
         "ui_locked": 0,
-        "a11y_enabled": 0
-      },
-      {
-        "id": 18,
-        "username": "k",
-        "email": "vokekelvin670@gmail.com",
-        "password_hash": "ef797c8118f02dfb649607dd5d3f8c7623048c9c063d532cc95c5ed7a898a64f",
-        "role": "parent",
-        "parent_id": null,
-        "invite_code": "GcxWxU2dr7w",
-        "last_seen": "2026-08-22 20:41:06",
-        "battery_level": 100,
-        "is_online": 0,
-        "created_at": "2026-08-22 20:41:06",
-        "admin_active": null,
-        "app_visible": null,
-        "device_owner": null,
-        "ui_locked": 0,
-        "a11y_enabled": 0
+        "a11y_enabled": 0,
+        "is_blocked": 0
       },
       {
         "id": 19,
@@ -182,7 +172,8 @@
         "app_visible": null,
         "device_owner": null,
         "ui_locked": 0,
-        "a11y_enabled": 0
+        "a11y_enabled": 0,
+        "is_blocked": 0
       },
       {
         "id": 20,
@@ -192,7 +183,7 @@
         "role": "parent",
         "parent_id": null,
         "invite_code": "ljCvAegqMyY",
-        "last_seen": "2026-08-22 20:46:48",
+        "last_seen": "2026-08-22 22:03:25",
         "battery_level": 100,
         "is_online": 0,
         "created_at": "2026-08-22 20:44:59",
@@ -200,7 +191,8 @@
         "app_visible": null,
         "device_owner": null,
         "ui_locked": 0,
-        "a11y_enabled": 0
+        "a11y_enabled": 0,
+        "is_blocked": 0
       },
       {
         "id": 21,
@@ -210,7 +202,7 @@
         "role": "parent",
         "parent_id": null,
         "invite_code": "V4qDdFni6C4",
-        "last_seen": "2026-08-22 20:50:24",
+        "last_seen": "2026-08-22 22:03:10",
         "battery_level": 100,
         "is_online": 0,
         "created_at": "2026-08-22 20:48:31",
@@ -218,7 +210,8 @@
         "app_visible": null,
         "device_owner": null,
         "ui_locked": 0,
-        "a11y_enabled": 0
+        "a11y_enabled": 0,
+        "is_blocked": 0
       }
     ],
     "parent_children": [],
@@ -288,17 +281,6 @@
         "expires_at": "2026-08-29T20:34:19.035325",
         "is_active": 1,
         "created_at": "2026-08-22 20:34:19"
-      },
-      {
-        "id": 7,
-        "key": "TRIAL-796185A8F1E57731",
-        "plan": "Free Trial",
-        "duration_days": 1,
-        "parent_id": 18,
-        "activated_at": "2026-08-22T20:41:06.153810",
-        "expires_at": "2026-08-23T20:41:06.152832",
-        "is_active": 1,
-        "created_at": "2026-08-22 20:41:06"
       },
       {
         "id": 8,
