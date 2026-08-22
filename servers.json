@@ -2,9 +2,10 @@
   "servers": [
     {
       "name": "home-pc",
-      "url": "https://promote-bit-persian-subscriptions.trycloudflare.com",
-      "last_seen": "2026-08-22T18:09:42Z"
+      "url": "https://desktop-8936018.tail8c96fc.ts.net",
+      "last_seen": "2026-08-22T18:12:24Z",
+      "tailnet_url": "http://desktop-8936018.tail8c96fc.ts.net:8002"
     }
   ],
-  "updated_at": "2026-08-22T18:09:42Z"
+  "updated_at": "2026-08-22T18:12:24Z"
 }
