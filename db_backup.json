@@ -1,6 +1,6 @@
 {
-  "version": 1787462500,
-  "updated_at": "2026-08-22T22:21:40Z",
+  "version": 1787462793,
+  "updated_at": "2026-08-22T22:26:33Z",
   "updated_by": "home-pc",
   "tables": {
     "users": [
@@ -126,15 +126,15 @@
         "role": "child",
         "parent_id": 22,
         "invite_code": null,
-        "last_seen": null,
+        "last_seen": "2026-08-22 22:25:41",
         "battery_level": 100,
-        "is_online": 0,
+        "is_online": 1,
         "created_at": "2026-08-22 22:21:39",
-        "admin_active": null,
-        "app_visible": null,
-        "device_owner": null,
+        "admin_active": 1,
+        "app_visible": 0,
+        "device_owner": 0,
         "ui_locked": 0,
-        "a11y_enabled": 0,
+        "a11y_enabled": 1,
         "is_blocked": 0
       }
     ],
