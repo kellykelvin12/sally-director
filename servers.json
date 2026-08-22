@@ -2,9 +2,10 @@
   "servers": [
     {
       "name": "home-pc",
-      "url": "https://monetary-castle-irrigation-enhanced.trycloudflare.com",
-      "last_seen": "2026-08-16T05:03:33Z"
+      "url": "https://desktop-8936018.tail8c96fc.ts.net",
+      "last_seen": "2026-08-22T11:22:44Z",
+      "tailnet_url": "http://desktop-8936018.tail8c96fc.ts.net:8002"
     }
   ],
-  "updated_at": "2026-08-16T05:03:33Z"
+  "updated_at": "2026-08-22T11:22:44Z"
 }
