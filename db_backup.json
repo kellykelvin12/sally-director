@@ -1,6 +1,6 @@
 {
-  "version": 1787455907,
-  "updated_at": "2026-08-22T20:31:47Z",
+  "version": 1787456060,
+  "updated_at": "2026-08-22T20:34:20Z",
   "updated_by": "home-pc",
   "tables": {
     "users": [
@@ -129,6 +129,24 @@
         "device_owner": null,
         "ui_locked": 0,
         "a11y_enabled": 0
+      },
+      {
+        "id": 17,
+        "username": "kelvink",
+        "email": "kelvink@gmail.com",
+        "password_hash": "ef797c8118f02dfb649607dd5d3f8c7623048c9c063d532cc95c5ed7a898a64f",
+        "role": "parent",
+        "parent_id": null,
+        "invite_code": "jMOzjuh-I88",
+        "last_seen": null,
+        "battery_level": 100,
+        "is_online": 0,
+        "created_at": "2026-08-22 20:34:18",
+        "admin_active": null,
+        "app_visible": null,
+        "device_owner": null,
+        "ui_locked": 0,
+        "a11y_enabled": 0
       }
     ],
     "parent_children": [],
@@ -187,6 +205,17 @@
         "expires_at": "2026-08-29T20:28:10.158944",
         "is_active": 1,
         "created_at": "2026-08-22 20:28:10"
+      },
+      {
+        "id": 6,
+        "key": "TRIAL-5D5CF50A2A40F21F",
+        "plan": "Free Trial",
+        "duration_days": 7,
+        "parent_id": 17,
+        "activated_at": "2026-08-22T20:34:19.035325",
+        "expires_at": "2026-08-29T20:34:19.035325",
+        "is_active": 1,
+        "created_at": "2026-08-22 20:34:19"
       }
     ],
     "geofences": [],
