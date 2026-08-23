@@ -3,8 +3,9 @@
     {
       "name": "home-pc",
       "url": "https://desktop-8936018.tail8c96fc.ts.net",
-      "last_seen": "2026-08-23T21:47:33Z"
+      "last_seen": "2026-08-23T21:51:33Z",
+      "tailnet_url": "http://desktop-8936018.tail8c96fc.ts.net:8002"
     }
   ],
-  "updated_at": "2026-08-23T21:47:33Z"
+  "updated_at": "2026-08-23T21:51:33Z"
 }
