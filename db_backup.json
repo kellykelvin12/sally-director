@@ -1,6 +1,6 @@
 {
-  "version": 1787491418,
-  "updated_at": "2026-08-23T06:23:38Z",
+  "version": 1787492698,
+  "updated_at": "2026-08-23T06:44:58Z",
   "updated_by": "home-pc",
   "tables": {
     "users": [
@@ -107,7 +107,7 @@
         "role": "parent",
         "parent_id": null,
         "invite_code": "ckp4LATM8Ms",
-        "last_seen": "2026-08-23 06:23:12",
+        "last_seen": "2026-08-23 06:34:49",
         "battery_level": 100,
         "is_online": 1,
         "created_at": "2026-08-22 22:09:55",
@@ -126,12 +126,12 @@
         "role": "child",
         "parent_id": 22,
         "invite_code": null,
-        "last_seen": "2026-08-23 06:22:26",
+        "last_seen": "2026-08-23 06:44:55",
         "battery_level": 100,
-        "is_online": 0,
+        "is_online": 1,
         "created_at": "2026-08-22 22:21:39",
         "admin_active": 1,
-        "app_visible": 0,
+        "app_visible": 1,
         "device_owner": 0,
         "ui_locked": 0,
         "a11y_enabled": 1,
@@ -231,6 +231,16 @@
         "speed": 0.0,
         "altitude": null,
         "timestamp": "2026-08-09 08:34:06"
+      },
+      {
+        "id": 29,
+        "child_id": 23,
+        "latitude": -1.45612971,
+        "longitude": 36.97206418,
+        "accuracy": 54.672000885009766,
+        "speed": 0.0,
+        "altitude": null,
+        "timestamp": "2026-08-23 06:39:57"
       }
     ],
     "pending_commands": [
@@ -870,6 +880,28 @@
         "status": "pending",
         "result": null,
         "created_at": "2026-08-23 06:23:29",
+        "completed_at": null
+      },
+      {
+        "id": 696,
+        "child_id": 23,
+        "parent_id": 22,
+        "command": "list_files",
+        "params": null,
+        "status": "pending",
+        "result": null,
+        "created_at": "2026-08-23 06:24:04",
+        "completed_at": null
+      },
+      {
+        "id": 700,
+        "child_id": 23,
+        "parent_id": 22,
+        "command": "list_files",
+        "params": null,
+        "status": "pending",
+        "result": null,
+        "created_at": "2026-08-23 06:35:21",
         "completed_at": null
       }
     ]
