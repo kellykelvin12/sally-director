@@ -1,6 +1,6 @@
 {
-  "version": 1787548243,
-  "updated_at": "2026-08-23T22:10:43Z",
+  "version": 1787548283,
+  "updated_at": "2026-08-23T22:11:23Z",
   "updated_by": "home-pc",
   "tables": {
     "users": [
@@ -31,9 +31,9 @@
         "role": "admin",
         "parent_id": null,
         "invite_code": null,
-        "last_seen": "2026-08-22 22:03:31",
+        "last_seen": "2026-08-23 22:11:22",
         "battery_level": 100,
-        "is_online": 0,
+        "is_online": 1,
         "created_at": "2026-08-03 14:13:00",
         "admin_active": 0,
         "app_visible": 0,
@@ -107,7 +107,7 @@
         "role": "parent",
         "parent_id": null,
         "invite_code": "ckp4LATM8Ms",
-        "last_seen": "2026-08-23 22:01:47",
+        "last_seen": "2026-08-23 22:11:12",
         "battery_level": 100,
         "is_online": 0,
         "created_at": "2026-08-22 22:09:55",
@@ -180,7 +180,7 @@
         "duration_days": 1,
         "parent_id": 22,
         "activated_at": "2026-08-22T22:09:55.484318",
-        "expires_at": "2026-08-23T22:09:55.484318",
+        "expires_at": "2026-08-24T22:11:22.459466",
         "is_active": 1,
         "created_at": "2026-08-22 22:09:55"
       }
