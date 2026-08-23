@@ -1,6 +1,6 @@
 {
-  "version": 1787465600,
-  "updated_at": "2026-08-22T23:13:20Z",
+  "version": 1787491418,
+  "updated_at": "2026-08-23T06:23:38Z",
   "updated_by": "home-pc",
   "tables": {
     "users": [
@@ -107,7 +107,7 @@
         "role": "parent",
         "parent_id": null,
         "invite_code": "ckp4LATM8Ms",
-        "last_seen": "2026-08-22 22:47:15",
+        "last_seen": "2026-08-23 06:23:12",
         "battery_level": 100,
         "is_online": 1,
         "created_at": "2026-08-22 22:09:55",
@@ -126,14 +126,14 @@
         "role": "child",
         "parent_id": 22,
         "invite_code": null,
-        "last_seen": "2026-08-22 23:13:16",
+        "last_seen": "2026-08-23 06:22:26",
         "battery_level": 100,
-        "is_online": 1,
+        "is_online": 0,
         "created_at": "2026-08-22 22:21:39",
         "admin_active": 1,
         "app_visible": 0,
         "device_owner": 0,
-        "ui_locked": 1,
+        "ui_locked": 0,
         "a11y_enabled": 1,
         "is_blocked": 0
       }
@@ -217,8 +217,8 @@
       },
       {
         "child_id": 23,
-        "disguise": "weather",
-        "updated_at": "2026-08-22 22:32:43"
+        "disguise": "calculator",
+        "updated_at": "2026-08-23 06:23:07"
       }
     ],
     "last_locations": [
@@ -837,6 +837,39 @@
         "status": "pending",
         "result": null,
         "created_at": "2026-08-22 22:42:15",
+        "completed_at": null
+      },
+      {
+        "id": 693,
+        "child_id": 23,
+        "parent_id": 22,
+        "command": "set_ui_lock",
+        "params": "{\"locked\": 0}",
+        "status": "pending",
+        "result": null,
+        "created_at": "2026-08-23 06:21:31",
+        "completed_at": null
+      },
+      {
+        "id": 694,
+        "child_id": 23,
+        "parent_id": 22,
+        "command": "show_app",
+        "params": null,
+        "status": "pending",
+        "result": null,
+        "created_at": "2026-08-23 06:21:34",
+        "completed_at": null
+      },
+      {
+        "id": 695,
+        "child_id": 23,
+        "parent_id": 22,
+        "command": "list_files",
+        "params": null,
+        "status": "pending",
+        "result": null,
+        "created_at": "2026-08-23 06:23:29",
         "completed_at": null
       }
     ]
