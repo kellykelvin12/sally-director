@@ -1,6 +1,6 @@
 {
-  "version": 1787547716,
-  "updated_at": "2026-08-23T22:01:56Z",
+  "version": 1787548243,
+  "updated_at": "2026-08-23T22:10:43Z",
   "updated_by": "home-pc",
   "tables": {
     "users": [
@@ -109,7 +109,7 @@
         "invite_code": "ckp4LATM8Ms",
         "last_seen": "2026-08-23 22:01:47",
         "battery_level": 100,
-        "is_online": 1,
+        "is_online": 0,
         "created_at": "2026-08-22 22:09:55",
         "admin_active": null,
         "app_visible": null,
@@ -126,9 +126,9 @@
         "role": "child",
         "parent_id": 22,
         "invite_code": null,
-        "last_seen": "2026-08-23 22:01:21",
+        "last_seen": "2026-08-23 22:09:59",
         "battery_level": 100,
-        "is_online": 1,
+        "is_online": 0,
         "created_at": "2026-08-22 22:21:39",
         "admin_active": 1,
         "app_visible": 1,
@@ -169,7 +169,7 @@
         "duration_days": 1,
         "parent_id": 1,
         "activated_at": "2026-08-22T11:30:37.663301",
-        "expires_at": "2026-08-24T11:30:37.663301",
+        "expires_at": "2026-08-25T11:30:37.663301",
         "is_active": 1,
         "created_at": "2026-08-22 11:30:16"
       },
@@ -186,7 +186,18 @@
       }
     ],
     "geofences": [],
-    "bedtime_schedules": [],
+    "bedtime_schedules": [
+      {
+        "id": 2,
+        "parent_id": 22,
+        "child_id": 23,
+        "day_of_week": -1,
+        "start_time": "14:02",
+        "end_time": "07:00",
+        "is_active": 1,
+        "created_at": "2026-08-23 22:09:51"
+      }
+    ],
     "app_blocks": [
       {
         "id": 14,
