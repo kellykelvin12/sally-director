@@ -1,6 +1,6 @@
 {
-  "version": 1787577416,
-  "updated_at": "2026-08-24T06:16:56Z",
+  "version": 1787578026,
+  "updated_at": "2026-08-24T06:27:06Z",
   "updated_by": "home-pc",
   "tables": {
     "users": [
@@ -126,7 +126,7 @@
         "role": "child",
         "parent_id": 22,
         "invite_code": null,
-        "last_seen": "2026-08-24 06:16:36",
+        "last_seen": "2026-08-24 06:26:36",
         "battery_level": 100,
         "is_online": 1,
         "created_at": "2026-08-22 22:21:39",
