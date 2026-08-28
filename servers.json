@@ -8,8 +8,9 @@
     {
       "name": "BACKUP PC 1",
       "url": "https://desktop-sjfe9fs.tail15750a.ts.net",
-      "last_seen": "2026-08-28T17:47:42Z"
+      "last_seen": "2026-08-28T17:48:09Z",
+      "tailnet_url": "http://desktop-sjfe9fs.tail15750a.ts.net:8002"
     }
   ],
-  "updated_at": "2026-08-28T17:47:42Z"
+  "updated_at": "2026-08-28T17:48:09Z"
 }
