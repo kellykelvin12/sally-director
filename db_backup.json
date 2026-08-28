@@ -1,7 +1,7 @@
 {
-  "version": 1787881521,
-  "updated_at": "2026-08-27T18:45:21Z",
-  "updated_by": "BACKUP PC 1",
+  "version": 1787964904,
+  "updated_at": "2026-08-28T17:55:04Z",
+  "updated_by": "home-pc",
   "tables": {
     "users": [
       {
@@ -107,7 +107,7 @@
         "role": "parent",
         "parent_id": null,
         "invite_code": "ckp4LATM8Ms",
-        "last_seen": "2026-08-24 00:50:27",
+        "last_seen": "2026-08-26 18:42:29",
         "battery_level": 100,
         "is_online": 1,
         "created_at": "2026-08-22 22:09:55",
@@ -126,8 +126,8 @@
         "role": "child",
         "parent_id": 22,
         "invite_code": null,
-        "last_seen": "2026-08-24 07:29:37",
-        "battery_level": 100,
+        "last_seen": "2026-08-28 17:54:57",
+        "battery_level": 97,
         "is_online": 1,
         "created_at": "2026-08-22 22:21:39",
         "admin_active": 1,
@@ -244,14 +244,14 @@
         "timestamp": "2026-08-09 08:34:06"
       },
       {
-        "id": 48,
+        "id": 49,
         "child_id": 23,
-        "latitude": -1.45612971,
-        "longitude": 36.97206418,
-        "accuracy": 54.672000885009766,
+        "latitude": -1.45654996,
+        "longitude": 36.97199579,
+        "accuracy": 257.2799987792969,
         "speed": 0.0,
         "altitude": null,
-        "timestamp": "2026-08-23 07:33:36"
+        "timestamp": "2026-08-28 17:45:59"
       }
     ],
     "pending_commands": [
