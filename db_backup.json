@@ -1,6 +1,6 @@
 {
-  "version": 1787965675,
-  "updated_at": "2026-08-28T18:07:55Z",
+  "version": 1787966197,
+  "updated_at": "2026-08-28T18:16:37Z",
   "updated_by": "BACKUP PC 1",
   "tables": {
     "users": [
@@ -107,7 +107,7 @@
         "role": "parent",
         "parent_id": null,
         "invite_code": "ckp4LATM8Ms",
-        "last_seen": "2026-08-24 00:50:27",
+        "last_seen": "2026-08-28 18:13:57",
         "battery_level": 100,
         "is_online": 1,
         "created_at": "2026-08-22 22:09:55",
@@ -180,7 +180,7 @@
         "duration_days": 1,
         "parent_id": 22,
         "activated_at": "2026-08-22T22:09:55.484318",
-        "expires_at": "2026-08-24T22:11:22.459466",
+        "expires_at": "2026-08-29T18:16:36.133829",
         "is_active": 1,
         "created_at": "2026-08-22 22:09:55"
       }
