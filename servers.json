@@ -1,15 +1,15 @@
 {
   "servers": [
     {
-      "name": "BACKUP PC 1",
-      "url": "https://desktop-sjfe9fs.tail15750a.ts.net",
-      "last_seen": "2026-08-28T17:42:41Z"
-    },
-    {
       "name": "home-pc",
       "url": "https://desktop-8936018.tail8c96fc.ts.net",
       "last_seen": "2026-08-28T17:44:53Z"
+    },
+    {
+      "name": "BACKUP PC 1",
+      "url": "https://desktop-sjfe9fs.tail15750a.ts.net",
+      "last_seen": "2026-08-28T17:47:42Z"
     }
   ],
-  "updated_at": "2026-08-28T17:44:53Z"
+  "updated_at": "2026-08-28T17:47:42Z"
 }
