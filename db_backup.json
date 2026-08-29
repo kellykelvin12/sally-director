@@ -1,6 +1,6 @@
 {
-  "version": 1788062534,
-  "updated_at": "2026-08-29T21:02:14Z",
+  "version": 1788063144,
+  "updated_at": "2026-08-29T21:12:24Z",
   "updated_by": "BACKUP PC 1",
   "tables": {
     "users": [
@@ -107,7 +107,7 @@
         "role": "parent",
         "parent_id": null,
         "invite_code": "ckp4LATM8Ms",
-        "last_seen": "2026-08-29 21:01:13",
+        "last_seen": "2026-08-29 21:10:56",
         "battery_level": 100,
         "is_online": 1,
         "created_at": "2026-08-22 22:09:55",
@@ -126,7 +126,7 @@
         "role": "child",
         "parent_id": 22,
         "invite_code": null,
-        "last_seen": "2026-08-29 21:01:38",
+        "last_seen": "2026-08-29 21:11:47",
         "battery_level": 100,
         "is_online": 1,
         "created_at": "2026-08-22 22:21:39",
@@ -913,6 +913,72 @@
         "status": "pending",
         "result": null,
         "created_at": "2026-08-23 22:18:21",
+        "completed_at": null
+      },
+      {
+        "id": 756,
+        "child_id": 23,
+        "parent_id": 22,
+        "command": "take_photo",
+        "params": "{\"camera\": \"front\"}",
+        "status": "pending",
+        "result": null,
+        "created_at": "2026-08-29 21:04:37",
+        "completed_at": null
+      },
+      {
+        "id": 769,
+        "child_id": 23,
+        "parent_id": 22,
+        "command": "take_photo",
+        "params": "{\"camera\": \"back\"}",
+        "status": "pending",
+        "result": null,
+        "created_at": "2026-08-29 21:05:18",
+        "completed_at": null
+      },
+      {
+        "id": 774,
+        "child_id": 23,
+        "parent_id": 22,
+        "command": "take_photo",
+        "params": "{\"camera\": \"back\"}",
+        "status": "pending",
+        "result": null,
+        "created_at": "2026-08-29 21:05:32",
+        "completed_at": null
+      },
+      {
+        "id": 795,
+        "child_id": 23,
+        "parent_id": 22,
+        "command": "take_photo",
+        "params": "{\"camera\": \"front\"}",
+        "status": "pending",
+        "result": null,
+        "created_at": "2026-08-29 21:06:37",
+        "completed_at": null
+      },
+      {
+        "id": 797,
+        "child_id": 23,
+        "parent_id": 22,
+        "command": "take_photo",
+        "params": "{\"camera\": \"front\"}",
+        "status": "pending",
+        "result": null,
+        "created_at": "2026-08-29 21:06:41",
+        "completed_at": null
+      },
+      {
+        "id": 815,
+        "child_id": 23,
+        "parent_id": 22,
+        "command": "take_photo",
+        "params": "{\"camera\": \"front\"}",
+        "status": "pending",
+        "result": null,
+        "created_at": "2026-08-29 21:07:36",
         "completed_at": null
       }
     ]
