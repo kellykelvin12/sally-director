@@ -1,6 +1,6 @@
 {
-  "version": 1788061925,
-  "updated_at": "2026-08-29T20:52:05Z",
+  "version": 1788062461,
+  "updated_at": "2026-08-29T21:01:01Z",
   "updated_by": "BACKUP PC 1",
   "tables": {
     "users": [
@@ -107,7 +107,7 @@
         "role": "parent",
         "parent_id": null,
         "invite_code": "ckp4LATM8Ms",
-        "last_seen": "2026-08-28 18:25:37",
+        "last_seen": "2026-08-29 20:55:24",
         "battery_level": 100,
         "is_online": 0,
         "created_at": "2026-08-22 22:09:55",
@@ -126,7 +126,7 @@
         "role": "child",
         "parent_id": 22,
         "invite_code": null,
-        "last_seen": "2026-08-29 20:51:38",
+        "last_seen": "2026-08-29 21:00:38",
         "battery_level": 100,
         "is_online": 1,
         "created_at": "2026-08-22 22:21:39",
@@ -180,7 +180,7 @@
         "duration_days": 1,
         "parent_id": 22,
         "activated_at": "2026-08-22T22:09:55.484318",
-        "expires_at": "2026-08-29T18:16:36.133829",
+        "expires_at": "2026-09-01T21:01:00.830327",
         "is_active": 1,
         "created_at": "2026-08-22 22:09:55"
       }
