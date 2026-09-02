@@ -1,6 +1,6 @@
 {
-  "version": 1788334249,
-  "updated_at": "2026-09-02T00:30:49Z",
+  "version": 1788334859,
+  "updated_at": "2026-09-02T00:40:59Z",
   "updated_by": "BACKUP PC 1",
   "tables": {
     "users": [
@@ -126,7 +126,7 @@
         "role": "child",
         "parent_id": 22,
         "invite_code": null,
-        "last_seen": "2026-09-02 00:30:09",
+        "last_seen": "2026-09-02 00:40:10",
         "battery_level": 100,
         "is_online": 1,
         "created_at": "2026-08-22 22:21:39",
@@ -233,14 +233,14 @@
         "timestamp": "2026-08-09 08:34:06"
       },
       {
-        "id": 169,
+        "id": 175,
         "child_id": 23,
-        "latitude": -1.45665472,
-        "longitude": 36.97223648,
-        "accuracy": 255.13600158691406,
+        "latitude": -1.4566046,
+        "longitude": 36.97228947,
+        "accuracy": 149.0080108642578,
         "speed": 0.0,
         "altitude": null,
-        "timestamp": "2026-09-02 00:26:15"
+        "timestamp": "2026-09-02 00:38:48"
       }
     ],
     "pending_commands": [
