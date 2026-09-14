@@ -1,6 +1,6 @@
 {
-  "version": 1789403128,
-  "updated_at": "2026-09-14T09:25:28Z",
+  "version": 1789403181,
+  "updated_at": "2026-09-14T09:26:21Z",
   "updated_by": "BACKUP PC 1",
   "tables": {
     "users": [
@@ -107,9 +107,9 @@
         "role": "parent",
         "parent_id": null,
         "invite_code": "ckp4LATM8Ms",
-        "last_seen": "2026-09-14 09:24:43",
+        "last_seen": "2026-09-14 09:25:50",
         "battery_level": 100,
-        "is_online": 1,
+        "is_online": 0,
         "created_at": "2026-08-22 22:09:55",
         "admin_active": null,
         "app_visible": null,
@@ -135,6 +135,25 @@
         "device_owner": 0,
         "ui_locked": 0,
         "a11y_enabled": 1,
+        "is_blocked": 0
+      },
+      {
+        "id": 24,
+        "username": "jay",
+        "email": "jay@gmail.com",
+        "password_hash": "ef797c8118f02dfb649607dd5d3f8c7623048c9c063d532cc95c5ed7a898a64f",
+        "role": "parent",
+        "parent_id": null,
+        "invite_code": "q-EcNkAl2dU",
+        "last_seen": "2026-09-14 09:26:18",
+        "battery_level": 100,
+        "is_online": 1,
+        "created_at": "2026-09-14 09:26:18",
+        "admin_active": null,
+        "app_visible": null,
+        "device_owner": null,
+        "ui_locked": 0,
+        "a11y_enabled": 0,
         "is_blocked": 0
       }
     ],
@@ -183,6 +202,17 @@
         "expires_at": "2026-09-01T21:01:00.830327",
         "is_active": 1,
         "created_at": "2026-08-22 22:09:55"
+      },
+      {
+        "id": 12,
+        "key": "TRIAL-FAA3D0024D2B0549",
+        "plan": "Free Trial",
+        "duration_days": 1,
+        "parent_id": 24,
+        "activated_at": "2026-09-14T09:26:18.365305",
+        "expires_at": "2026-09-15T09:26:18.365305",
+        "is_active": 1,
+        "created_at": "2026-09-14 09:26:18"
       }
     ],
     "geofences": [],
