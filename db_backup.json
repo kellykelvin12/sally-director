@@ -1,6 +1,6 @@
 {
-  "version": 1789632413,
-  "updated_at": "2026-09-17T01:06:53Z",
+  "version": 1789632472,
+  "updated_at": "2026-09-17T01:07:52Z",
   "updated_by": "BACKUP PC 1",
   "tables": {
     "users": [
@@ -12,7 +12,7 @@
         "role": "parent",
         "parent_id": null,
         "invite_code": "8GonErTcg_I",
-        "last_seen": "2026-09-17 01:06:25",
+        "last_seen": "2026-09-17 01:07:02",
         "battery_level": 100,
         "is_online": 0,
         "created_at": "2026-08-03 13:31:29",
@@ -31,7 +31,7 @@
         "role": "admin",
         "parent_id": null,
         "invite_code": null,
-        "last_seen": "2026-08-23 22:11:22",
+        "last_seen": "2026-09-17 01:07:49",
         "battery_level": 100,
         "is_online": 1,
         "created_at": "2026-08-03 14:13:00",
@@ -126,8 +126,8 @@
         "role": "child",
         "parent_id": 22,
         "invite_code": null,
-        "last_seen": "2026-09-17 01:06:39",
-        "battery_level": 12,
+        "last_seen": "2026-09-17 01:07:39",
+        "battery_level": 11,
         "is_online": 1,
         "created_at": "2026-08-22 22:21:39",
         "admin_active": 1,
@@ -199,7 +199,7 @@
         "duration_days": 1,
         "parent_id": 22,
         "activated_at": "2026-08-22T22:09:55.484318",
-        "expires_at": "2026-09-01T21:01:00.830327",
+        "expires_at": "2026-09-20T01:07:51.505261",
         "is_active": 1,
         "created_at": "2026-08-22 22:09:55"
       },
