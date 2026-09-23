@@ -1,6 +1,6 @@
 {
-  "version": 1790223868,
-  "updated_at": "2026-09-23T21:24:28Z",
+  "version": 1790224478,
+  "updated_at": "2026-09-23T21:34:38Z",
   "updated_by": "BACKUP PC 1",
   "tables": {
     "users": [
@@ -126,7 +126,7 @@
         "role": "child",
         "parent_id": 22,
         "invite_code": null,
-        "last_seen": "2026-09-23 21:24:05",
+        "last_seen": "2026-09-23 21:34:05",
         "battery_level": 100,
         "is_online": 1,
         "created_at": "2026-08-22 22:21:39",
