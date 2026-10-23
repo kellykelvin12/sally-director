@@ -1,6 +1,6 @@
 {
-  "version": 1792784904,
-  "updated_at": "2026-10-23T12:48:24Z",
+  "version": 1792785322,
+  "updated_at": "2026-10-23T12:55:22Z",
   "updated_by": "BACKUP PC 1",
   "tables": {
     "users": [
@@ -149,6 +149,25 @@
         "battery_level": 100,
         "is_online": 0,
         "created_at": "2026-09-14 09:26:18",
+        "admin_active": null,
+        "app_visible": null,
+        "device_owner": null,
+        "ui_locked": 0,
+        "a11y_enabled": 0,
+        "is_blocked": 0
+      },
+      {
+        "id": 25,
+        "username": "new",
+        "email": "new@child.local",
+        "password_hash": "d4b560c29eb8da6c044397df909f9ffaa797f2f60e3c3ce2d068b1fe5e1d8a18",
+        "role": "child",
+        "parent_id": 1,
+        "invite_code": null,
+        "last_seen": null,
+        "battery_level": 100,
+        "is_online": 0,
+        "created_at": "2026-10-23 12:55:21",
         "admin_active": null,
         "app_visible": null,
         "device_owner": null,
