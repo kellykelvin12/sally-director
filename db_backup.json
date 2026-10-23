@@ -1,6 +1,6 @@
 {
-  "version": 1792785516,
-  "updated_at": "2026-10-23T12:58:36Z",
+  "version": 1792786127,
+  "updated_at": "2026-10-23T13:08:47Z",
   "updated_by": "BACKUP PC 1",
   "tables": {
     "users": [
@@ -164,14 +164,14 @@
         "role": "child",
         "parent_id": 1,
         "invite_code": null,
-        "last_seen": "2026-10-23 12:58:32",
-        "battery_level": 87,
+        "last_seen": "2026-10-23 13:08:14",
+        "battery_level": 86,
         "is_online": 1,
         "created_at": "2026-10-23 12:55:21",
         "admin_active": 1,
         "app_visible": 0,
         "device_owner": 0,
-        "ui_locked": 0,
+        "ui_locked": 1,
         "a11y_enabled": 0,
         "is_blocked": 0
       }
@@ -289,6 +289,11 @@
         "child_id": 23,
         "disguise": "weather",
         "updated_at": "2026-08-28 18:22:05"
+      },
+      {
+        "child_id": 25,
+        "disguise": "notes",
+        "updated_at": "2026-10-23 12:59:01"
       }
     ],
     "last_locations": [
@@ -1092,28 +1097,6 @@
         "status": "pending",
         "result": null,
         "created_at": "2026-09-27 19:32:50",
-        "completed_at": null
-      },
-      {
-        "id": 883,
-        "child_id": 25,
-        "parent_id": 1,
-        "command": "take_photo",
-        "params": "{\"camera\": \"back\"}",
-        "status": "pending",
-        "result": null,
-        "created_at": "2026-10-23 12:58:31",
-        "completed_at": null
-      },
-      {
-        "id": 884,
-        "child_id": 25,
-        "parent_id": 1,
-        "command": "take_photo",
-        "params": "{\"camera\": \"back\"}",
-        "status": "pending",
-        "result": null,
-        "created_at": "2026-10-23 12:58:34",
         "completed_at": null
       }
     ]
