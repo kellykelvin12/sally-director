@@ -1,6 +1,6 @@
 {
-  "version": 1792786127,
-  "updated_at": "2026-10-23T13:08:47Z",
+  "version": 1792786739,
+  "updated_at": "2026-10-23T13:18:59Z",
   "updated_by": "BACKUP PC 1",
   "tables": {
     "users": [
@@ -12,7 +12,7 @@
         "role": "parent",
         "parent_id": null,
         "invite_code": "8GonErTcg_I",
-        "last_seen": "2026-10-23 12:19:17",
+        "last_seen": "2026-10-23 13:15:07",
         "battery_level": 100,
         "is_online": 1,
         "created_at": "2026-08-03 13:31:29",
@@ -164,15 +164,15 @@
         "role": "child",
         "parent_id": 1,
         "invite_code": null,
-        "last_seen": "2026-10-23 13:08:14",
-        "battery_level": 86,
+        "last_seen": "2026-10-23 13:18:46",
+        "battery_level": 85,
         "is_online": 1,
         "created_at": "2026-10-23 12:55:21",
         "admin_active": 1,
         "app_visible": 0,
         "device_owner": 0,
         "ui_locked": 1,
-        "a11y_enabled": 0,
+        "a11y_enabled": 1,
         "is_blocked": 0
       }
     ],
@@ -1097,6 +1097,28 @@
         "status": "pending",
         "result": null,
         "created_at": "2026-09-27 19:32:50",
+        "completed_at": null
+      },
+      {
+        "id": 905,
+        "child_id": 25,
+        "parent_id": 1,
+        "command": "vibrate",
+        "params": "{\"count\": 5}",
+        "status": "pending",
+        "result": null,
+        "created_at": "2026-10-23 13:15:00",
+        "completed_at": null
+      },
+      {
+        "id": 906,
+        "child_id": 3,
+        "parent_id": 1,
+        "command": "vibrate",
+        "params": "{\"count\": 3}",
+        "status": "pending",
+        "result": null,
+        "created_at": "2026-10-23 13:15:54",
         "completed_at": null
       }
     ]
