@@ -1,6 +1,6 @@
 {
-  "version": 1792889571,
-  "updated_at": "2026-10-24T17:52:51Z",
+  "version": 1792890184,
+  "updated_at": "2026-10-24T18:03:04Z",
   "updated_by": "BACKUP PC 1",
   "tables": {
     "users": [
@@ -14,7 +14,7 @@
         "invite_code": "8GonErTcg_I",
         "last_seen": "2026-10-24 17:45:25",
         "battery_level": 100,
-        "is_online": 1,
+        "is_online": 0,
         "created_at": "2026-08-03 13:31:29",
         "admin_active": null,
         "app_visible": null,
@@ -31,7 +31,7 @@
         "role": "admin",
         "parent_id": null,
         "invite_code": null,
-        "last_seen": "2026-09-27 19:22:39",
+        "last_seen": "2026-10-24 17:53:14",
         "battery_level": 100,
         "is_online": 0,
         "created_at": "2026-08-03 14:13:00",
@@ -164,8 +164,8 @@
         "role": "child",
         "parent_id": 1,
         "invite_code": null,
-        "last_seen": "2026-10-24 17:52:08",
-        "battery_level": 25,
+        "last_seen": "2026-10-24 18:02:09",
+        "battery_level": 24,
         "is_online": 1,
         "created_at": "2026-10-23 12:55:21",
         "admin_active": 1,
