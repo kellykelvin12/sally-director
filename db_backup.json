@@ -1,6 +1,6 @@
 {
-  "version": 1792854082,
-  "updated_at": "2026-10-24T08:01:22Z",
+  "version": 1792854693,
+  "updated_at": "2026-10-24T08:11:33Z",
   "updated_by": "BACKUP PC 1",
   "tables": {
     "users": [
@@ -12,7 +12,7 @@
         "role": "parent",
         "parent_id": null,
         "invite_code": "8GonErTcg_I",
-        "last_seen": "2026-10-24 07:45:14",
+        "last_seen": "2026-10-24 08:09:07",
         "battery_level": 100,
         "is_online": 1,
         "created_at": "2026-08-03 13:31:29",
@@ -164,8 +164,8 @@
         "role": "child",
         "parent_id": 1,
         "invite_code": null,
-        "last_seen": "2026-10-24 07:04:01",
-        "battery_level": 48,
+        "last_seen": "2026-10-24 08:08:34",
+        "battery_level": 46,
         "is_online": 0,
         "created_at": "2026-10-23 12:55:21",
         "admin_active": 1,
@@ -328,14 +328,14 @@
         "timestamp": "2026-09-29 12:00:03"
       },
       {
-        "id": 1400,
+        "id": 1401,
         "child_id": 25,
-        "latitude": -1.4570550500000001,
-        "longitude": 36.971929749999994,
-        "accuracy": 2.274531364440918,
-        "speed": 0.3880699872970581,
+        "latitude": -1.4572411666666667,
+        "longitude": 36.97193026666666,
+        "accuracy": 0.7058759331703186,
+        "speed": 0.2564859986305237,
         "altitude": null,
-        "timestamp": "2026-10-24 07:02:13"
+        "timestamp": "2026-10-24 08:08:26"
       }
     ],
     "pending_commands": [
