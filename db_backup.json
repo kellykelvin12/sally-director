@@ -1,6 +1,6 @@
 {
-  "version": 1792939101,
-  "updated_at": "2026-10-25T07:38:21Z",
+  "version": 1792939712,
+  "updated_at": "2026-10-25T07:48:32Z",
   "updated_by": "BACKUP PC 1",
   "tables": {
     "users": [
@@ -12,9 +12,9 @@
         "role": "parent",
         "parent_id": null,
         "invite_code": "8GonErTcg_I",
-        "last_seen": "2026-10-25 07:09:20",
+        "last_seen": "2026-10-25 07:47:49",
         "battery_level": 100,
-        "is_online": 1,
+        "is_online": 0,
         "created_at": "2026-08-03 13:31:29",
         "admin_active": null,
         "app_visible": null,
